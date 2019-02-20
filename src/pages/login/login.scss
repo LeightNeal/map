@@ -1,0 +1,16 @@
+page-login {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, minmax(80px, 1fr));
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
